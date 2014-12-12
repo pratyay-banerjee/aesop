@@ -1,0 +1,48 @@
+{
+  "name" : "wishlist",
+  "type" : "record",
+  "doc" : "Auto-generated Avro schema for wishlist. Generated at Dec 11, 2014 05:10:55 PM IST",
+  "namespace" : "wishlist_service.wishlist",
+  "meta" : "pk=id",
+  "fields" : [ {
+    "name" : "id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=id;dbFieldPosition=1;dbFieldType=varchar"
+  }, {
+    "name" : "account_id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=account_id;dbFieldPosition=2;dbFieldType=varchar"
+  }, {
+    "name" : "product_id",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=product_id;dbFieldPosition=3;dbFieldType=varchar"
+  }, {
+    "name" : "product_type",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=product_type;dbFieldPosition=4;dbFieldType=varchar"
+  }, {
+    "name" : "tags",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=tags;dbFieldPosition=5;dbFieldType=varchar"
+  }, {
+    "name" : "system_tags",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=system_tags;dbFieldPosition=6;dbFieldType=varchar"
+  }, {
+    "name" : "last_modified",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=last_modified;dbFieldPosition=7;dbFieldType=datetime"
+  }, {
+    "name" : "creation_date",
+    "type" : [ "long", "null" ],
+    "meta" : "dbFieldName=creation_date;dbFieldPosition=8;dbFieldType=timestamp"
+  }, {
+    "name" : "creating_system",
+    "type" : [ "string", "null" ],
+    "meta" : "dbFieldName=creating_system;dbFieldPosition=9;dbFieldType=varchar"
+  }, {
+    "name" : "version",
+    "type" : [ "int", "null" ],
+    "meta" : "dbFieldName=version;dbFieldPosition=10;dbFieldType=int"
+  } ]
+}
